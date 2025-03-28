@@ -21,16 +21,16 @@ but the API and feature-set are far from final or even planned.
 - [x] Heartbeat
 - [x] Pairing file
 - [ ] Instproxy (partial support)
-- [ ] afc
+- [x] afc
 - [ ] amfi
 - [ ] companion proxy
-- [ ] diagnostics
-- [ ] file relay
-- [ ] house arrest
+- [x] diagnostics
+- [x] file relay
+- [x] house arrest
 - [ ] misagent (certificates)
 - [x] RemoteXPC
-- [ ] mobile backup
-- [ ] notification proxy
+- [x] mobile backup
+- [x] notification proxy
 - [x] DVT protocol
 - [ ] screenshot
 - [ ] simulate location
@@ -48,6 +48,11 @@ To keep dependency bloat and compile time down, everything is contained in featu
 - installation_proxy
 - mounter
 - xpc
+- afc
+- house_arrest
+- file_relay
+- diagnostics
+- notification_proxy
 - full
 
 As this project is done in my free time within my busy schedule, there

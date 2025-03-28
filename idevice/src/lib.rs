@@ -13,6 +13,12 @@ pub mod http2;
 #[cfg(feature = "installation_proxy")]
 pub mod installation_proxy;
 pub mod lockdownd;
+#[cfg(feature = "amfi")]
+pub mod amfi;
+
+#[cfg(feature = "companion_proxy")]
+pub mod companion_proxy;
+
 #[cfg(feature = "misagent")]
 pub mod misagent;
 #[cfg(feature = "mounter")]
@@ -360,3 +366,19 @@ impl IdeviceError {
         }
     }
 }
+
+#[cfg(feature = "file_relay")]
+pub mod file_relay;
+#[cfg(feature = "house_arrest")]
+pub mod house_arrest;
+#[cfg(feature = "screenshot")]
+pub mod screenshot;
+#[cfg(feature = "afc")]
+pub mod afc;
+
+#[cfg(feature = "notification_proxy")]
+pub mod notification_proxy;
+#[cfg(feature = "diagnostics")]
+pub mod diagnostics;
+#[cfg(feature = "mobile_backup")]
+pub mod mobile_backup;

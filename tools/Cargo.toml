@@ -53,6 +53,34 @@ path = "src/debug_proxy.rs"
 name = "misagent"
 path = "src/misagent.rs"
 
+[[bin]]
+name = "afc_tool"
+path = "src/afc_tool.rs"
+
+[[bin]]
+name = "screenshot_tool"
+path = "src/screenshot_tool.rs"
+
+[[bin]]
+name = "house_arrest_tool"
+path = "src/house_arrest_tool.rs"
+
+[[bin]]
+name = "file_relay_tool"
+path = "src/file_relay_tool.rs"
+
+[[bin]]
+name = "diagnostics_tool"
+path = "src/diagnostics_tool.rs"
+
+[[bin]]
+name = "notification_proxy_tool"
+path = "src/notification_proxy_tool.rs"
+
+[[bin]]
+name = "mobile_backup_tool"
+path = "src/mobile_backup_tool.rs"
+
 [dependencies]
 idevice = { path = "../idevice", features = ["full"] }
 tokio = { version = "1.43", features = ["io-util", "macros", "time", "full"] }
